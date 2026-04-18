@@ -80,37 +80,37 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E             &kp R             &kp T                                               &kp Y            &kp U  &lt 5 I    &kp O    &kp P
-&mt TAB A           &kp S         &kp D             &kp F             &kp G        &kp ESCAPE              &kp MINUS      &kp H            &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_CONTROL Z  &kp X         &kp C             &kp V             &kp B        &kp COLON               &kp SEMICOLON  &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT      &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 6 INT_HENKAN  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp SPACE      &lt 1 BACKSPACE                             &lt 3 MINUS
+&mt ESCAPE Q        &kp W         &kp E             &kp R            &kp T                                           &kp Y          &kp U  &kt I      &kp O    &kp P
+&mt TAB A           &kp S         &kp D             &kp F            &kp G       &kp TAB          &kp RIGHT_CONTROL  &kp H          &kp J  &kp K      &kp L    &kp DELETE
+&mt LEFT_CONTROL Z  &kp X         &kp C             &kp V            &kp B       &to 4            &to 0              &kp N          &kp M  &kp COMMA  &kp DOT  &kp RET
+&kp LEFT_SHIFT      &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 6 LC(SPACE)  &kp DELETE  &lt 1 SPACE      &kp SPACE          &kp RIGHT_ALT                             &lt 3 MINUS
             >;
         };
 
         FUNCTION {
             bindings = <
-&kp F1  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &kp F1  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)          &kp LS(NUMBER_3)  &kp LS(NUMBER_4)   &kp LS(N5)                       &kp LS(NUMBER_6)  &kp LS(N7)          &kp LS(N8)           &kp LS(N9)      &kp LS(N0)
+&kp LS(EQUAL)     &kp LS(NON_US_BACKSLASH)  &kp LS(GRAVE)     &kp LS(SEMICOLON)  &kp LS(SQT)  &trans      &trans  &trans            &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&kp EQUAL         &kp NON_US_BACKSLASH      &kp GRAVE         &kp SEMICOLON      &kp SQT      &trans      &trans  &trans            &kp MINUS           &kp LS(UNDERSCORE)   &kp LS(SLASH)   &kp SLASH
+&trans            &trans                    &trans            &trans             &trans       &trans      &trans  &trans                                                                     &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp NUMBER_1                &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp N5                                                     &kp NUMBER_6      &kp N7             &kp N8          &kp N9           &kp N0
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans          &trans          &trans           &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                   &trans
+&trans             &kp HOME         &kp END     &trans  &trans                      &trans  &trans          &trans          &trans           &trans
+&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans  &trans  &trans      &trans  &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans
+&trans             &trans           &trans      &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans             &trans           &trans      &trans  &trans  &trans      &trans  &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -118,8 +118,8 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &lt 5 O   &lt 5 P
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &lt 5 DELETE
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &trans    &mkp MB5  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
