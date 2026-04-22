@@ -89,10 +89,10 @@
 
         FUNCTION {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)   &kp LS(NUMBER_3)  &kp LS(NUMBER_4)   &kp LS(N5)                       &kp LS(NUMBER_6)  &kp LS(N7)          &kp LS(N8)           &kp LS(N9)      &kp LS(N0)
-&kp LS(EQUAL)     &kp LS(BACKSLASH)  &kp LS(GRAVE)     &kp LS(SEMICOLON)  &kp LS(SQT)  &trans      &trans  &trans            &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&kp EQUAL         &kp BACKSLASH      &kp GRAVE         &kp SEMICOLON      &kp SQT      &trans      &trans  &trans            &kp MINUS           &kp LS(UNDERSCORE)   &kp LS(SLASH)   &kp SLASH
-&trans            &trans             &trans            &trans             &trans       &trans      &trans  &trans                                                                     &trans
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)   &kp LS(NUMBER_3)  &kp LS(NUMBER_4)   &kp LS(N5)                       &kp LS(NUMBER_6)  &kp LS(N7)            &kp LS(N8)             &kp LS(N9)        &kp LS(N0)
+&kp LS(EQUAL)     &kp LS(BACKSLASH)  &kp LS(GRAVE)     &kp LS(SEMICOLON)  &kp LS(SQT)  &trans      &trans  &trans            &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp EQUAL         &kp BACKSLASH      &kp GRAVE         &kp SEMICOLON      &kp SQT      &trans      &trans  &trans            &kp MINUS             &kp LS(UNDERSCORE)     &kp LS(SLASH)     &kp SLASH
+&trans            &trans             &trans            &trans             &trans       &trans      &trans  &trans                                                                           &trans
             >;
         };
 
