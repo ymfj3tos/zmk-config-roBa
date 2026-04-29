@@ -32,31 +32,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-
         mouse-layer {
             bindings = <&to 4>;
             key-positions = <6 7 8>;
@@ -65,6 +40,11 @@
         default-layer {
             bindings = <&to 0>;
             key-positions = <18 19 20>;
+        };
+
+        lt-mouse-layer {
+            bindings = <&lt 4 ESCAPE>;
+            key-positions = <15 27>;
         };
     };
 
