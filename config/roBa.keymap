@@ -88,10 +88,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q        &mt LANGUAGE_2 W  &kp E             &kp R            &kp T                                               &kp Y          &kp U  &mt MINUS I         &mt LANGUAGE_1 O  &mt EQUAL P
-&mt TAB A           &kp S             &kp D             &kp F            &kp G          &kp TAB             &kp ESCAPE       &kp H          &kp J  &mt SINGLE_QUOTE K  &mt SEMICOLON L   &kp BACKSPACE
-&mt LEFT_CONTROL Z  &kp X             &kp C             &kp V            &kp B          &kp LEFT_SHIFT      &kp RIGHT_SHIFT  &kp N          &kp M  &kp COMMA           &mt SLASH DOT     &kp RET
-&kp LEFT_SHIFT      &kp LEFT_ALT      &kp LEFT_COMMAND  &lt 6 LC(SPACE)  &kp BACKSPACE  &lt 1 SPACE         &lt 2 SPACE      &kp RIGHT_ALT                                               &lt 3 MINUS
+&mt ESCAPE Q        &mt LANGUAGE_2 W  &kp E             &kp R        &kp T                                           &kp Y          &kp U  &kp I      &mt LANGUAGE_1 O  &mt EQUAL P
+&mt TAB A           &kp S             &kp D             &kp F        &kp G          &kp TAB             &kp ESCAPE   &kp H          &kp J  &kp K      &kp L             &kp BACKSPACE
+&mt LEFT_CONTROL Z  &kp X             &kp C             &kp V        &kp B          &kp LEFT_SHIFT      &lt 3 LANG1  &kp N          &kp M  &kp COMMA  &mt SLASH DOT     &kp RET
+&kp LEFT_SHIFT      &kp LEFT_ALT      &kp LEFT_COMMAND  &lt 6 LANG2  &kp BACKSPACE  &lt 1 SPACE         &lt 2 SPACE  &kp RIGHT_ALT                                      &lt 3 MINUS
             >;
         };
 
@@ -106,10 +106,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
-&trans        &trans        &trans        &trans        &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans  &trans                                &trans
+&kp NUMBER_1   &kp NUMBER_2       &kp NUMBER_3   &kp NUMBER_4       &kp N5                           &kp NUMBER_6          &kp N7                 &kp N8            &kp N9             &kp N0
+&kp LS(EQUAL)  &kp LS(BACKSLASH)  &kp LS(GRAVE)  &kp LS(SEMICOLON)  &kp LS(SQT)  &trans      &trans  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp EQUAL      &kp BACKSLASH      &kp GRAVE      &kp SEMICOLON      &kp SQT      &trans      &trans  &kp LS(MINUS)         &kp MINUS              &kp LS(SLASH)     &kp SLASH          &trans
+&trans         &trans             &trans         &trans             &trans       &trans      &trans  &trans                                                                            &trans
             >;
         };
 
@@ -142,7 +142,7 @@
             >;
         };
 
-        layer_6 {
+        BLUETOOTH {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans           &trans       &trans        &trans        &trans        &trans        &trans
