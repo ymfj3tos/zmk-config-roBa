@@ -116,8 +116,8 @@
         ARROW {
             bindings = <
 &trans             &kp HOME         &kp END     &trans  &trans                          &trans  &trans          &trans          &trans           &trans
-&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans  &trans      &trans      &trans  &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp DELETE
-&trans             &trans           &trans      &trans  &trans      &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans  &trans      &trans      &trans  &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp C_BRI_UP
+&trans             &trans           &trans      &trans  &trans      &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_BRI_DN
 &trans             &trans           &trans      &trans  &kp DELETE  &trans      &trans  &trans                                                   &trans
             >;
 
